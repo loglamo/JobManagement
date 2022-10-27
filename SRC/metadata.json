@@ -1,0 +1,59 @@
+{
+	"file1" : 
+	{
+		"client1" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client2" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client3" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"id" : "1"
+	},
+	"file2" : 
+	{
+		"client1" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client2" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client3" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"id" : "2"
+	},
+	"file3" : 
+	{
+		"client1" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client2" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"client3" : 
+		{
+			"currentreading" : 0,
+			"lastcommand" : "Stop"
+		},
+		"id" : "3"
+	}
+}
