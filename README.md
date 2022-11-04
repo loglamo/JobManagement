@@ -17,4 +17,3 @@ These codes conclude one server file and one client file. They communicate via S
 
 - Install the g++ compiler
 - Be sure that the port is available when running code, otherwise the refused connection will occur
-- The code is not completed. The current version is for sending and receiving message between the server and client 
