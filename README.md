@@ -1,6 +1,10 @@
 # JobManagement
 # Server and Client for Running Jobs 
-These codes conclude one server file and one client file. They communicate via Socket. The server can start, pause, restart, stop the job according to commands from the client. The client sends a command (start: to start the job; pause: to pause the running job; restart: to continue the paused job; stop: to kill the job) at one time to the server.
+These codes are with 3 asynchronous servers and 2 clients. 
+
+Clients can choose one server in (1, 2, 3 - id of server), one job (1, 2 - id of job), one command in (Start, Stop, Pause, Resume) at one time. 
+
+Servers receive commands from clients, and execute commands (Start reading file, Stop reading file, Pause reading file, or Resume reading file).
 
 
 1. **Run the codes with:**
@@ -17,3 +21,5 @@ These codes conclude one server file and one client file. They communicate via S
 
 - Install the g++ compiler
 - Be sure that the port is available when running code, otherwise the refused connection will occur
+- Current version runs with 3 servers and 2 clients. All 3 servers should be available at the time clients want to connect to. 
+- With each done command from one client, values of properties "lastcommand", "currentreading" will be update in metadata.json file. The initial states of "lastcommand" and "currentreading" are "Stop" and 0 respectively. 
